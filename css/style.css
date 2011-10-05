@@ -1,0 +1,70 @@
+@import "html.css";
+@import "layout.css";
+@import "fonts.css";
+@import "pageheader.css";
+@import "menu.css";
+@import "page.home.css";
+@import "content.css";
+@import "colors.css";
+@import "breadcrumbs.css";
+@import "sub.menu.css";
+@import "footer.css";
+/*
+style.css
+
+	grid stuff voor homepage
+	margin tussen 4 kol = 20px
+	4 kol = 4x 222px ?
+*/
+#extra h4,
+#sub h4 {
+	-moz-border-radius-bottomleft: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+}
+#extra h3,
+#extra h4,
+#sub h3,
+#sub h4 {
+	border: 1px solid #a6a9ac;
+	-moz-border-radius-topright: 5px;
+	-webkit-border-top-right-radius: 5px;
+	margin-bottom: 10px;
+}
+ /* for testing */
+img#force {
+	width: 80px;
+	height: 120px;
+}
+li.hor img {
+	margin: 0 10px 10px;
+}
+/**
+ * clearFix
+ */
+
+.clearfix:after,
+#menu:after {
+/* for modern browsers, firefox, safari, camino, opera, shira, icab and flock */
+  content: ".";
+	display: block;
+	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+
+* html .clearfix,
+* html #menu {
+/* for IE 5+ IE 6 */
+	height: 1%;
+	overflow: visible;
+}
+
+*:first-child+html .clearfix,
+*:first-child+html #menu {
+/* for IE 7 */
+	min-height: 1px;
+}
+
+/**
+ * /clearFix
+ */

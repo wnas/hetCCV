@@ -1,0 +1,26 @@
+/*
+	all the typographical stuff
+*/
+
+
+body {
+	font-family: verdana, helvetica, sans-serif;
+	font-size: .625em;
+	/* translates 1em to 10px */
+}
+#header h1 {
+	font-size: 1em;
+}
+#main li > * {
+	font-size: 1.1em;
+}
+
+h1 {
+	font-size: 1.3em;
+}
+h2 {
+	font-size: 1.2em;
+}
+h3, h4 {
+	font-size: 1.1em;
+}

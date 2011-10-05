@@ -1,0 +1,27 @@
+#sub.menu { width: 220px; }
+#sub.menu li { border-bottom: 1px solid #dcddde; background: transparent url(img/bg-nav.gif) no-repeat 0 bottom; }
+#sub.menu a { display: block; width: 196px; font-size: 11px; line-height: 13px; padding: 8px 0 5px 24px; background: transparent url(img/bg-nav.gif) no-repeat 6px -20px; color: #000; }
+
+
+#sub.menu li {
+	margin: 0;
+	background-repeat: repeat-x;
+}
+
+#sub.menu li.selected {
+	background-color:  #008fd0;
+	background-image: none;
+	border-bottom: 0;
+}
+#sub.menu li.selected a {
+	border-bottom: 1px solid #dcddde;
+	background-position: 6px 10px;
+	color: #fff;
+}
+#sub.menu li.selected li a {
+	background-position: 0px -63px;
+	border-bottom: 0;
+	padding-left: 36px;
+	width: 184px;
+	color: #000;
+}

@@ -1,0 +1,116 @@
+/*
+	styles for basic building blocks, aka html
+*/
+body {
+	color: #000;
+	background-color: #fff;
+	text-align: center; /* for ie6 and below */
+}
+/*
+	reset bit
+*/
+body,
+ul,
+li,
+button,
+fieldset,
+legend,
+p,
+div {
+	padding: 0;
+	margin: 0;
+}
+li {
+	list-style: none;
+}
+h1,
+h2 {
+	margin: 0;
+	color: #66C2e8;
+}
+h3,
+h4 {
+	margin: 0;
+	padding: 5px 10px;
+}
+fieldset {
+	border: 0;
+}
+
+/*
+	end reset 
+*/
+a {
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+abbr{
+	border-bottom: 0;
+}
+
+form li,
+#sub li,
+#extra > li {
+	list-style: none;
+	float: left;
+}
+#extra > li {
+	margin-bottom: 10px;
+}
+#extra li li {
+	padding: 0 10px;
+}
+form {
+	padding: 10px 0;
+}
+
+form li,
+form p,
+form legend {
+	padding: 0 10px;
+}
+form legend {
+	padding-bottom: 10px;
+}
+form li {
+	clear: left;
+}
+form p {
+text-align: right;
+}
+
+button {
+	border: 0;
+	padding: 0 10px;
+	border: 1px solid #a7a8aa;
+	background-color: #eee;
+	font-weight: bold;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+button,
+button span {
+	height: 22px;
+	color: #0099d9;
+}
+button span {
+	background-position: top left;
+	display: inline-block;
+	padding-top: 2px;
+}
+
+.article p {
+	margin: 1em 0;
+}
+.article img {
+	float: left;
+}
+.article ul {
+	padding-left: 20px;
+}
+.article li {
+	padding: 5px 0 0 20px;
+	list-style-position: inside;
+}

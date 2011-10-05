@@ -1,0 +1,65 @@
+/*
+	all the layout stuff goes here
+*/
+
+#wrapper {
+	margin: 0 auto;
+	width: 94em; /* appr 940px */
+	position: relative;
+	text-align: left;/* for ie6 and below */
+}
+#sub,
+#extra {
+	padding: 0;
+	margin: 0;
+}
+#sub > li.odd,
+#extra > li.odd {
+	margin-right: 2em;
+}
+/*
+	for the homepage
+*/
+body.home #sub {
+	float: right;
+}
+body.home #sub,
+body.home #extra {
+	width: 46.4em;
+}
+
+/*
+	for the content pages
+*/
+.content #main {
+	float: left;
+	display: inline;
+	margin-left: 240px;
+	width: 460px;
+}
+.content #sub {
+	position: absolute;
+	left: 0;
+	width: 220px;
+}
+.content #extra {
+	float: right;
+	width: 220px;
+}
+.search #main {
+	float: left;
+	width: 460px;outline: 1px dotted red;
+}
+.search #sub,
+.search #extra {
+	width: 220px;
+}
+.search #sub {
+	float: right;
+	margin-right: 240px;
+	display: inline; /* for ie */
+}
+.search #extra {
+	position: absolute;
+	right: 0;
+}

@@ -1,0 +1,18 @@
+#breadcrumbs {
+	height: 2em;
+	margin-bottom: 1em;
+	background: #eff0f0 url(img/bg-nav.gif) repeat-x 0 bottom;
+	border-bottom: 1px solid #dcddde;
+}
+#breadcrumbs li {
+	float: left;
+	padding: .25em .5em;
+}
+#breadcrumbs li a:after {
+	content: '  >';
+}
+#breadcrumbs a,
+#breadcrumbs strong {
+	font-weight: normal;
+	color: #000;
+}

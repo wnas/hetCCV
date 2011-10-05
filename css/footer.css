@@ -1,0 +1,13 @@
+#footer {
+	float: left;width: 100%;
+	margin-top: 1em;
+		border-top: 1px solid #028fd4;
+}
+#footer a {
+	color: #028fd4;
+	border-left: 1px solid #028fd4;
+	padding-left: 7px;
+}
+#footer li:first-child a {
+	border-left: 0;
+}

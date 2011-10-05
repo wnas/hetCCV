@@ -1,0 +1,15 @@
+
+a {
+	color: #000;
+}
+abbr {
+	color: #7a7b7d;
+}
+#extra h3{
+	color: #fff;
+	background-color: #0099d9;
+}
+li.newsletter,
+li.publicaties {
+	background-color: #eee;
+}

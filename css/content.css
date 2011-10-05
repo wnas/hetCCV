@@ -1,0 +1,72 @@
+/*
+	all content stuff
+*/
+/* content */
+#main {
+	padding: 0;
+	margin: 0;
+}
+.content #main {
+	width: 46em;
+}
+#main h4,
+#main > li {
+	border-bottom: 1px solid #9ec2fd;
+}
+
+
+#main li li,
+#main > li.lastchild {
+	margin-right: 0;
+}
+#sub h4 {
+	padding: 5px 10px;
+	margin: 0 0 5px;
+	background-color: #9ec2fd;
+}
+#sub > li,
+#extra > li {
+	width: 220px;
+	margin-bottom: 10px;
+	overflow: hidden;
+}
+#sub li.hor,
+#extra li.hor {
+	width: 100%; position: relative;
+}
+#sub li.hor p,
+#sub li.hor a {
+	float: left;width: 220px;
+}
+
+#sub li p,
+#extra li p,
+#sub li a {
+	padding: 0 0 0 10px;
+}
+#sub li p a,
+#extra li p a {
+	padding: 0;display:block;
+}
+#sub .agenda p {
+	margin: 0;
+}
+#sub li abbr {
+	padding: 5px 10px;display: block;
+}
+.agenda ul,
+.agenda li {
+	padding: 0;
+	margin: 0;
+}
+.agenda li {
+	border-bottom: 1px solid #fff;
+	display: block;width: 100%;
+	padding-bottom: 10px;
+}
+
+#extra .hor ul {
+	float: right;
+	width: 300px;
+	margin-right: 10px;
+}

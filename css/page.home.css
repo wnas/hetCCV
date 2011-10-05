@@ -1,0 +1,122 @@
+.home #header {
+	background: url(img/header-image.gif) no-repeat top right transparent;
+	margin-bottom: .5em;
+	position: relative;
+}
+.home #header h1 {
+	color: #fff;
+	font-size: 1.5em;
+	background: url(img/h1-bg.gif) transparent;
+	padding: .625em;
+}
+#intro {
+	padding: 1em;
+}
+.home #main h3 {
+	padding: 5px 0;
+	color: #0099d9;
+}
+.home #main h3 {
+	background-color: #fff;
+	margin: 0 -1px;
+}
+.home #main li {
+	background-color: #eee;
+	border: 1px solid #9EC2FD;
+	border-top: 0;
+}
+.home #main li li {
+	background-color: transparent;
+	border: 0;
+}
+#main li div {
+	padding: 10px;
+	border-top: 1px solid #9EC2FD;
+
+}
+#editorial {
+	position: absolute;
+	left: 320px;
+	width: 618px;
+	bottom: 0;
+	border: 1px solid #028fd4;
+	border-top: 0;
+}
+#header div#editorial p {
+	width: 598px;
+}
+
+#editorial p {
+	background-color: #fff;
+	padding: 10px;
+}
+#news {
+	border: 1px solid #028fd4;
+	background-color: #edefee;
+	width: 280px;
+	padding: 5px 10px 10px;
+}
+#news h3 {
+	padding: 0;font-size: 120%;margin: 0;
+}
+#news ul {
+	padding: 0;margin: 0;
+}
+#news li {
+	list-style: none;
+	padding: 0 0 1em 4em;
+	margin: 0;
+	position: relative;
+}
+#news li p {
+	display: inline;margin:0; font-weight: bold;color: #000;
+}
+#news li abbr {
+	margin: 0 0 0 -4em;
+	display: inline-block;width: 3.6em;color:#028fd4; border: 0;
+}
+#main li {
+	float: left;
+	width: 298px;
+	margin: 0 20px 20px 0;
+	list-style: none;
+	padding: 0;
+	display: inline; /* for ie7 and below */	
+}
+#main li li {
+	margin: 0;
+}
+.home #sub li,
+.home #extra li {
+	background-color: #edeeee;
+	min-height: 150px;
+}
+.home #sub li li,
+.home #extra li li {
+	min-height: 0;
+}
+.home #extra li ul {
+	margin-left: 20px;
+}
+.home #extra li li {
+	list-style: disc;
+}
+.home #extra li.hor img {
+	float: left;
+}
+#sub li.agenda,
+#sub li.agenda li {
+	background-color: #dcdddf;
+}
+.home #sub h3 {
+	background-color: #0099d9;
+	color: #fff;
+}
+#sub li.agenda h4 {
+	background-color: #cacbcd;
+	padding: 5px 10px;
+}
+#extra li h4 {
+	background-color: #dcddde;
+		color: #0092cf
+}
